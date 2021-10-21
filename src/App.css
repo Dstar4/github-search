@@ -1,0 +1,18 @@
+:root {
+  --grey: #787777;
+  --darker-grey: #444444;
+  --white: #ffffff;
+  --he-blue: #2f58eb;
+  --light-grey: #f3f4f7;
+
+  background: var(--grey);
+}
+#root,
+html,
+body {
+  height: 100%;
+}
+
+button:hover,select:hover {
+  cursor: pointer;
+}
