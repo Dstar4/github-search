@@ -4,6 +4,7 @@ import Details from './Details'
 import { QueryClient, QueryClientProvider } from 'react-query'
 import {mockRepo} from '../../helpers/testing/mockData'
 
+
 const queryClient = new QueryClient()
 
 beforeEach(() => {
